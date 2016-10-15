@@ -1,0 +1,111 @@
+html, body{
+	width: 100%;
+	height:100%;
+
+}
+img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+.skrollr-container{
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+
+}
+
+.sections{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+.section{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+/*	this height affects how many can fit*/
+
+}
+
+.box {
+	position: relative;
+	top: 40%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+	background-color: yellow;
+}
+
+#section1{
+	background-color: blue;
+	height: 30%;
+	top: 0;
+}
+
+#section2{
+	height: 30%;
+	top: 28%;
+}
+
+#section3{
+	background-color: #FF1744;
+	height: 30%;
+	top: 58%;
+}
+
+#section4{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 29%;
+}
+
+#section5{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 59%;
+}
+
+.next {
+	position: absolute;
+	bottom: 1%;
+	right: 1%;
+	font-family: sans-serif;
+	font-size: 100px;
+}
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:1000%;
+	width:20px;
+}
+
+.marker{
+	width:100%;
+	height:10%;
+	border: 2px solid white;
+}
+
+a {
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: fixed;
+	bottom: 50%;
+	right: 20%;
+	font-size: 48px;
+}
+
+
+
+
+
